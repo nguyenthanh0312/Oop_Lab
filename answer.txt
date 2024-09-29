@@ -1,5 +1,5 @@
-Khi mà người dùng nhấn "cancel" thì sẽ chương trình sẽ hiện: You've chosen: No
-Cách tạo các câu trả lời khác của người dùng
+1.Khi mà người dùng nhấn "cancel" thì sẽ chương trình sẽ hiện: You've chosen: No
+2.Cách tạo các câu trả lời khác của người dùng
 import javax.swing.JOptionPane;
 
  public class CustomOptionsExample {
