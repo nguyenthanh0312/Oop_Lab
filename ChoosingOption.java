@@ -6,7 +6,7 @@ public class ChoosingOption {
 		System.exit(0);
 	}
 }
-//Khi mà người dùng nhấn "cancel" thì sẽ không làm gì cả ngoài việc bỏ qua việc lưu các thay đổi và không thực thi chương trình
+//Khi mà người dùng nhấn "cancel" thì sẽ chương trình sẽ hiện người dùng không chọn thay đổi vé
 //Cách tạo các câu trả lời khác của người dùng
 // import javax.swing.JOptionPane;
 
