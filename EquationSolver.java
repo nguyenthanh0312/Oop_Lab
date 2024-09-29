@@ -49,8 +49,6 @@ public class EquationSolver {
     }
 
     // Solve the system of two equations:
-    // a1x + b1y = c1
-    // a2x + b2y = c2
     public static void solveSystemOfLinearEquations(Scanner scanner) {
         System.out.print("Enter coefficient a1: ");
         double a1 = scanner.nextDouble();
@@ -81,7 +79,7 @@ public class EquationSolver {
         }
     }
 
-    // Solve ax^2 + bx + c = 0 (Quadratic Equation)
+    // Solve Quadratic Equation
     public static void solveQuadraticEquation(Scanner scanner) {
         System.out.print("Enter coefficient a: ");
         double a = scanner.nextDouble();
@@ -92,7 +90,7 @@ public class EquationSolver {
 
         if (a == 0) {
             System.out.println("This is not a quadratic equation.");
-            solveLinearEquation(scanner); // Solve as a linear equation instead
+            solveLinearEquation(scanner); 
         } else {
             double delta = b * b - 4 * a * c;
             
