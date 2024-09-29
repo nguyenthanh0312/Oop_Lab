@@ -7,11 +7,11 @@ public class Display_6_4 {
         String monthInput = "";
         
         while (year < 0) {
-            System.out.print("Enter a valid year (non-negative number): ");
+            System.out.print("Enter a valid year: ");
             if (scanner.hasNextInt()) {
                 year = scanner.nextInt();
                 if (year < 0) {
-                    System.out.println("Year must be a non-negative integer. Please try again.");
+                    System.out.println("Please try again.");
                 }
             } else {
                 System.out.println("Invalid input. Please enter a valid year.");
@@ -22,12 +22,12 @@ public class Display_6_4 {
         scanner.nextLine(); // Clear buffer
 
         while (month == -1) {
-            System.out.print("Enter a valid month (full name, abbreviation, or number): ");
+            System.out.print("Enter a valid month: ");
             monthInput = scanner.nextLine().trim();
 
             month = getMonthNumber(monthInput);
             if (month == -1) {
-                System.out.println("Invalid month. Please try again.");
+                System.out.println("Please try again.");
             }
         }
 
